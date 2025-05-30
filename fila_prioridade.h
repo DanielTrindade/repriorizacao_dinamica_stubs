@@ -1,4 +1,3 @@
-
 #ifndef FILA_PRIORIDADE_H
 #define FILA_PRIORIDADE_H
 
@@ -14,5 +13,6 @@ void inicializar_fila();
 void inserir(Pedido p);
 Pedido remover();
 int repriorizar(int id_dispositivo, int nova_prioridade);
+void imprimir_estatisticas();
 
 #endif
