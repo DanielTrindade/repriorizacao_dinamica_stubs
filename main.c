@@ -1,4 +1,3 @@
-#define _GNU_SOURCE
 #include "fila_prioridade.h"
 #include <pthread.h>
 #include <stdio.h>
